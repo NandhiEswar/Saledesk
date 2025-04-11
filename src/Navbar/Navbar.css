@@ -1,0 +1,16 @@
+.pill-button {
+  background-color: #E50914; /* Red background */
+  color: white; /* White text */
+  padding: 10px 30px; /* Adjust padding for the pill shape */
+  border: none; /* Remove border */
+  border-radius: 50px; /* Make it pill-shaped */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Add pointer cursor */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  transition: all 0.3s ease; /* Smooth hover effect */
+}
+
+.pill-button:hover {
+  background-color: #b20710; /* Darker red on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
