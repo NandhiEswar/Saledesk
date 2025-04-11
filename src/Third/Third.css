@@ -1,0 +1,14 @@
+.third-container {
+  font-family: 'Arial', sans-serif;
+}
+
+.feature-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  transition: transform 0.3s ease;
+}
